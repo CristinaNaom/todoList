@@ -1,0 +1,4 @@
+<div class="d-flex justify-content-between border border-dark py-2" *ngFor="let t of todos">
+   <h5 [ngClass]="{'text-decoration-line-through':t.completed}">{{t.title}}</h5>
+  </div>
+  
